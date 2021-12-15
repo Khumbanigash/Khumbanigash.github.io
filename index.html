@@ -6,19 +6,36 @@
 </head>
 
 <!--
-1 Exercise
+1 Gladiator Training
 1.1 Form and Positioning
 1.2 Gladiator Training Schedule
-2 Journal
+2 Health and Supplements
+2.1 Omega 3-6-9 Supplement
 3 People and Places
 4 Recipes
 4.1 Sogi
-
-Miscellaneous
-footer
+5 Journal
  -->
 
 <style>
+
+/* css for button that takes to top of page */
+
+#TopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
 
 #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
@@ -65,23 +82,28 @@ tr:nth-child(even) {
 <!-- Body of the file begins -->
 <body>
 
+<button onclick="topFunction()" id="TopButton" title="Go to top">Top</button>
+
 <!-- Table of Contents -->
 <div id="toc_container">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
-  <li><a href="#Header_1">1 Exercise</a>
+  <li><a href="#Header_1">1 Gladiator Training</a>
   <ul>
     <li><a href="#Header_1.1">1.1 Form and Positioning</a></li>
     <li><a href="#Header_1.2">1.2 Gladiator Training Schedule</a></li>
   </ul>
 </li>
-<li><a href="#Header_2">2 Journal</a></li>
+<li><a href="#Header_2">2 Health and Supplements</a></li>
+<ul>
+<li><a href="#Header_2.1">2.1 Omega 3-6-9 Supplement</li>
+</ul>
 <li><a href="#Header_3">3 People and Places</a></li>
 <li><a href="#Header_4">4 Recipes</a></li>
 <ul>
     <li><a href="#Header_4.1">4.1 Sogi</a></li>
 </ul>
-<li><a href="#Header_Misc">Miscellaneous</a></li>
+
 </ul>
 </div>
 
@@ -96,7 +118,7 @@ tr:nth-child(even) {
 
   </tr>
   <tr>
-    <td>Exercise</td>
+    <td>Gladiator Training</td>
     <td>1</td>
   </tr>
   <tr>
@@ -108,13 +130,13 @@ tr:nth-child(even) {
 
 <!-- HEADER 1 START - EXERCISE -->
 
-<h1 id="Header_1">1 Exercise</h1>
+<h1 id="Header_1">1 Gladiator Training</h1>
 
-<h3 id="Header_1.1">1.1 Form and Positioning</h3>
+<h2 id="Header_1.1">1.1 Form and Positioning</h2>
 
-<h3 id="Header_1.2">1.2 Gladiator Training Schedule</h3>
+<h2 id="Header_1.2">1.2 Gladiator Training Schedule</h2>
 
-<h4>Warm Ups</h4>
+<h3>Warm Ups</h3>
 <ul>
 <li>Ankle rotations</li>
 <li>Back stretch</li>
@@ -123,14 +145,14 @@ tr:nth-child(even) {
 <li>Side torso stretch</li>
 </ul>
 
-<h4>Cardio</h4>
+<h3>Cardio</h3>
 <ul>
 <li>Run</li>
 <li>Ruck</li>
 <li>Crawl</li>
 </ul>
 
-<h4>Monday</h4>
+<h3>Monday</h3>
 <ul>
 <li>Warm ups</li>
 <li>Rows</li>
@@ -139,7 +161,7 @@ tr:nth-child(even) {
 <li>Sandbag farmer walk</li>
 </ul>
 
-<h4>Tuesday</h4>
+<h3>Tuesday</h3>
 <ul>
 <li>Warm ups</li>
 <li>Push ups</li>
@@ -148,7 +170,7 @@ tr:nth-child(even) {
 <li>Dumbbell farmer walks</li>
 </ul>
 
-<h4>Wednesday</h4>
+<h3>Wednesday</h3>
 <ul>
 <li>Warm up</li>
 <li>Pull ups</li>
@@ -157,7 +179,7 @@ tr:nth-child(even) {
 <li>One arm farmer walks</li>
 </ul>
 
-<h4>Thursday</h4>
+<h3>Thursday</h3>
 <ul>
 <li>Warm ups</li>
 <li>Chin ups</li>
@@ -166,7 +188,7 @@ tr:nth-child(even) {
 <li>Hanging leg raises</li>
 </ul>
 
-<h4>Friday</h4>
+<h3>Friday</h3>
 <ul>
 <li>Warm ups</li>
 <li>Bicep curls</li>
@@ -175,33 +197,78 @@ tr:nth-child(even) {
 <li>Lateral raises</li>
 </ul>
 
-<h4>Bonus</h4>
+<h3>Bonus</h3>
 <ul>
 <li>Warm ups</li>
 <li>Tyre pulls</li>
 </ul>
 
 
-<!-- HEADER 1 END - EXERCISE -->
+<!-- 1 Gladiator Training START -->
 	
-<!-- HEADER 2 START JOURNAL-->
+<!-- 2 Health and Supplements START-->
+
+<h1 id="Header_2">2 Health and Supplements</h1>
+
+
+
+<!-- 2.1 Omega 3-6-9 Supplement START-->
+
+<h2 id="Header_2.1">2.1 Omega 3-6-9 Supplement</h2>
+
+<h3>Which foods contain Omega 3 fats</h3>
+<ul>
+<li>Salmon</li>
+<li>Mackerel</li>
+<li>Sardines</li>
+<li>Anchovies</li>
+<li>Chia Seeds</li>
+<li>Walnuts</li>
+<li>Flaxseeds</li>
+</ul>
+
+<h3>Which foods contain Omega -6 fats</h3>
+<ul>
+<li>Soybean oil</li>
+<li>Corn oil</li>
+<li>Mayonnaise</li>
+<li>Walnuts</li>
+<li>Sunflower seeds</li>
+<li>Almonds</li>
+<li>Cashew nuts</li>
+<li></li>
+</ul>
+
+<h3>Which foods contain Omega -9 fats</h3>
+<ul>
+<li>Vegetable and seed oils</li>
+<li>Nuts</li>
+<li>Seeds</li>
+</ul>
+
+<h3>How to choose an omega 3-6-9 supplement</h3>
+<p>Combined omega-3-6-9 supplements provide optimal ratios of fatty acids. However, they likely provide no additional benefits compared with omega-3 supplements.</p>
+<ul>
+<li>Choose one that’s cold pressed. This means the oil has been extracted with limited heat, minimizing the oxidization that can damage the fatty acid molecules.</li>
+<li>To ensure you’re taking a supplement that isn’t oxidized, choose one that contains an antioxidant such as vitamin E.</li>
+<li>Additionally, select a supplement with the highest omega-3 content — ideally more than 0.3 grams per serving.</li>
+<li>Since EPA and DHA have more health benefits than ALA. Choose a supplement that uses fish oil or algal oil, rather than flaxseed oil.</li>
+
+</ul>
+
+<h3>The bottom line</h3>
+<p>Combined omega-3-6-9 supplements are popular, but they generally provide no additional benefit over taking omega-3 alone.<br><br>
+Omega-6s are essential in certain quantities, but they’re present in many foods. People who follow a Western diet may already consume too many.<br><br>
+Additionally, the body can produce omega-9 fats, and they’re easily obtained in the diet. So you don’t need to take them in supplement form.<br><br>
+Therefore, although combined supplements contain optimal omega 3-6-9 ratios, taking just omega-3s will likely provide you with the most health benefits.</p>
+
+
+<!-- 2.1 Omega 3-6-9 Supplement END-->
 	
-<h1 id= "Header_2">2 Journal</h1>
-<h4>20 November 2021</h4>
-<p>No matter what decisions we make, we will always have our minds, our thoughts, our opinions, our truths.</p>
-
-<h4>03 Decemeber 2021</h4> <!-- Date of Journal entry -->
-<p>I did a proposal to BP on 27 Novemeber 2021 at Matusadona Guest Lodge in Assagay/Hillcrest. I took her to do an Escape room in uMhlanga, then lunch at 1904 Bistro Avenue in Kloof, before the proposal. The proposal happened at 1700. There were candles on the floor and balloons. We stayed the night at the guest lodge. I fell asleep and BP did not sleep at all. I woke up after midnight and we did some fecks. We also talked. I fell asleep again. Then we had complimentary breakfast. They served us musueli with yoghurt, egss, toast, croissant, coffee, juice, and tomatos with melted cheese on it. The breakfast was tasty and well prepared. BP and I cried during the proposal. The first words she said were, "I knew it!". It was very difficult keeping the secret from her. I came clean about all the lies on the day. I regret not accepting Anne, the manager of the lodge, offer to record the proposal. I also missed her message of having a bon fire set up because her chat was set to silent. Oh well. I will definitely take her back there and maybe then we can have a bon fire. It was a very rushed job though. It happened very quickly. But it was still great. The families are pressuring us to do a wedding but we want to save for a home and BP just does not want to go through the whole process of actually planning and partaking in a wedding.</p> <!-- Journal entry -->
-
-
-<h4>___</h4> <!-- Date of Journal entry -->
-<p>___</p> <!-- Journal entry -->
-
-
-<!-- HEADER 2 END JOURNAL-->
+<!-- 2 Health and Supplements END-->
 	
 	
-<!-- HEADER_3 START PEOPLE AND PLACES-->
+<!-- 3 People and Places START-->
 	
 <h1 id="Header_3">3 People and Places</h1>
 		
@@ -238,27 +305,42 @@ tr:nth-child(even) {
   </tr>
 </table>
 
-<!-- HEADER_3 END PEOPLE AND PLACES-->
+<!-- 3 People and Places END-->
 
-<!-- HEADER_4 START RECIPES-->
+<!-- 4 Recipes START -->
 
 <h1 id="Header_4">4 Recipes</h1>
 
-<h3 id="Header_4.1">4.1 Sogi</h3>
+<h2 id="Header_4.1">4.1 Sogi</h2>
+<ol>
+<li>Melt 200g butter in a pot with 2-3 cinnamon sticks and 1/4 teaspoon elaichi.
+Add 1 cup of semolina after butter melts and stir until cooked and combined properly.</li>
+<li>Then add 1 cup of boiling water. Mix until lumps are gone and moisture has simmered down. Approximately 2 min.</li>
+<li>Then add 1 cup of milk and 5ml(1tsp) vanilla essence. Keep stiring until combined and moisture simmers down and it begins to resemble soji texture.It should be smooth and soft...not lumpy</li>
+<li>Now you can add 1 cup of sugar or 1 can of condensed milk. I prefer the condensed milk. Keep stiring until moisture simmers and sohi texture starts to take form again.</li>
+<li>It will be watery everytime liquids are added, but you have to keep mixing until everything gets combined and takes soji form.</li>
+<li>Finally add 1/4 milk and almonds and mix until you get the texture you want.Then top with desert cream and sprinkle leftover almonds.</li>
+</ol>
 
 
 
-<!-- HEADER_4 END RECIPES-->
+<!-- 4 Recipes END -->
 
-<!-- HEADER_MISC START MISCELLANEOUS-->
+<!-- 5 Journal START -->
 
-<h1 id="Header_Misc"
-Header_Misc">Miscellaneous
+<h1 id= "Header_5">5 Journal</h1>
+<h4>20 November 2021</h4>
+<p>No matter what decisions we make, we will always have our minds, our thoughts, our opinions, our truths.</p>
+
+<h4>03 Decemeber 2021</h4> <!-- Date of Journal entry -->
+<p>I did a proposal to BP on 27 Novemeber 2021 at Matusadona Guest Lodge in Assagay/Hillcrest. I took her to do an Escape room in uMhlanga, then lunch at 1904 Bistro Avenue in Kloof, before the proposal. The proposal happened at 1700. There were candles on the floor and balloons. We stayed the night at the guest lodge. I fell asleep and BP did not sleep at all. I woke up after midnight and we did some fecks. We also talked. I fell asleep again. Then we had complimentary breakfast. They served us musueli with yoghurt, egss, toast, croissant, coffee, juice, and tomatos with melted cheese on it. The breakfast was tasty and well prepared. BP and I cried during the proposal. The first words she said were, "I knew it!". It was very difficult keeping the secret from her. I came clean about all the lies on the day. I regret not accepting Anne, the manager of the lodge, offer to record the proposal. I also missed her message of having a bon fire set up because her chat was set to silent. Oh well. I will definitely take her back there and maybe then we can have a bon fire. It was a very rushed job though. It happened very quickly. But it was still great. The families are pressuring us to do a wedding but we want to save for a home and BP just does not want to go through the whole process of actually planning and partaking in a wedding.</p> <!-- Journal entry -->
 
 
-<footer>
-<p>03.12.2021, 1558</p>
-</footer>
+<h4>___</h4> <!-- Date of Journal entry -->
+<p>___</p> <!-- Journal entry -->
+
+
+<!-- 5 Journal END -->
 
 <!-- Javascript is below -->
 <script>
@@ -374,6 +456,28 @@ function sortTable2(n) {
       }
     }
   }
+}
+
+// Functions for button that scrolls to top when clicked
+
+//Get the button
+var mybutton = document.getElementById("TopButton");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 </script>
